@@ -34,7 +34,7 @@ AWM keeps a **central registry** of MCPs and skills in `~/.agent-workspace/regis
 
 ```bash
 # Clone and install dependencies
-npm i @joehom/awm-cli -g .
+npm i @joehom/awm-cli -g
 awm --help
 ```
 
