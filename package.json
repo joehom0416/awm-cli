@@ -1,6 +1,6 @@
 {
   "name": "@joehom/awm-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Agent Workspace Manager CLI — manages MCP servers, skills, and profiles for AI coding tools",
   "type": "module",
   "bin": {
@@ -19,7 +19,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "license": "",
-  "repository": "",
-  "homepage": ""
+  "license": "MIT",
+  "repository": "https://github.com/joehom0416/awm-cli",
+  "homepage": "https://github.com/joehom0416/awm-cli#readme"
 }
