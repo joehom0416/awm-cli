@@ -1,0 +1,23 @@
+{
+  "id": "windsurf",
+  "name": "Windsurf",
+  "supports": {
+    "mcp": true,
+    "skills": true
+  },
+  "mcp": {
+    "format": "json",
+    "global": {
+      "targetFile": "~/.codeium/windsurf/mcp_config.json",
+      "rootObject": "mcpServers"
+    }
+  },
+  "skills": {
+    "project": {
+      "targetFolder": ".windsurf/skills"
+    },
+    "global": {
+      "targetFolder": "~/.codeium/windsurf/skills"
+    }
+  }
+}

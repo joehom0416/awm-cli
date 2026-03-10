@@ -1,0 +1,15 @@
+{
+  "id": "copilot-cli",
+  "name": "Copilot CLI",
+  "supports": {
+    "mcp": true,
+    "skills": false
+  },
+  "mcp": {
+    "format": "json",
+    "global": {
+      "targetFile": "~/.copilot/mcp-config.json",
+      "rootObject": "servers"
+    }
+  }
+}

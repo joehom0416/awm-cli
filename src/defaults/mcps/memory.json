@@ -1,0 +1,6 @@
+{
+  "id": "memory",
+  "transport": "stdio",
+  "command": "npx",
+  "args": ["-y", "@modelcontextprotocol/server-memory"]
+}

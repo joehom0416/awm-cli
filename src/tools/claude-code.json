@@ -1,0 +1,27 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code",
+  "supports": {
+    "mcp": true,
+    "skills": true
+  },
+  "mcp": {
+    "format": "json",
+    "project": {
+      "targetFile": ".mcp.json",
+      "rootObject": "mcpServers"
+    },
+    "global": {
+      "targetFile": "~/.claude.json",
+      "rootObject": "mcpServers"
+    }
+  },
+  "skills": {
+    "project": {
+      "targetFolder": ".claude/skills"
+    },
+    "global": {
+      "targetFolder": "~/.claude/skills"
+    }
+  }
+}

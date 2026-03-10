@@ -1,0 +1,25 @@
+{
+  "name": "@joehom/awm-cli",
+  "version": "0.0.2",
+  "description": "Agent Workspace Manager CLI — manages MCP servers, skills, and profiles for AI coding tools",
+  "type": "module",
+  "bin": {
+    "awm": "bin/awm.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "postinstall": "node src/seed.js"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^10.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "",
+  "repository": "",
+  "homepage": ""
+}

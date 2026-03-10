@@ -1,0 +1,27 @@
+{
+  "id": "codex",
+  "name": "Codex CLI",
+  "supports": {
+    "mcp": true,
+    "skills": true
+  },
+  "mcp": {
+    "format": "toml",
+    "project": {
+      "targetFile": ".codex/config.toml",
+      "rootObject": "mcp_servers"
+    },
+    "global": {
+      "targetFile": "~/.codex/config.toml",
+      "rootObject": "mcp_servers"
+    }
+  },
+  "skills": {
+    "project": {
+      "targetFolder": ".agents/skills"
+    },
+    "global": {
+      "targetFolder": "~/.agents/skills"
+    }
+  }
+}

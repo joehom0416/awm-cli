@@ -1,0 +1,27 @@
+{
+  "id": "gemini-cli",
+  "name": "Gemini CLI",
+  "supports": {
+    "mcp": true,
+    "skills": true
+  },
+  "mcp": {
+    "format": "json",
+    "project": {
+      "targetFile": ".gemini/settings.json",
+      "rootObject": "mcpServers"
+    },
+    "global": {
+      "targetFile": "~/.gemini/settings.json",
+      "rootObject": "mcpServers"
+    }
+  },
+  "skills": {
+    "project": {
+      "targetFolder": ".gemini/skills"
+    },
+    "global": {
+      "targetFolder": "~/.gemini/skills"
+    }
+  }
+}

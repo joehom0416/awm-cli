@@ -1,0 +1,27 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "supports": {
+    "mcp": true,
+    "skills": true
+  },
+  "mcp": {
+    "format": "json",
+    "project": {
+      "targetFile": ".cursor/mcp.json",
+      "rootObject": "mcpServers"
+    },
+    "global": {
+      "targetFile": "~/.cursor/mcp.json",
+      "rootObject": "mcpServers"
+    }
+  },
+  "skills": {
+    "project": {
+      "targetFolder": ".cursor/rules"
+    },
+    "global": {
+      "targetFolder": "~/.cursor/rules"
+    }
+  }
+}
